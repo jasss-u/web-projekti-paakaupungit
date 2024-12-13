@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+header {
+    background-color: #74a182;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+/*home-nappulan muotoilu*/
+a.navbar-brand {
+    color: black;
+    font-size: 40px;
+}
+
+/*lisätty välistystä nav-elementtien väliin*/
+.nav-item {
+    margin: 0 15px;
+}
+
+/*vaihdettu alasvetovalikon taustaväri ja fonttikoko*/
+ul.dropdown-menu {
+    background-color: #a0c4aa;
+    font-size: 20px;
+}
+
+/*vaihdettu alasvetovalikon taustaväri, kun hiiri on itemin päällä*/
+a.dropdown-item:hover {
+    background-color: #4a7c59;
+}
+
+main {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 24px;
+}
+
+#content {
+    height: 75vh;
+    background-color: #cde2d3;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+img {
+    max-width: 84%;
+}
+
+.option {
+    margin: 3vh;
+    border-radius: 10%;
+}
+
+button {
+    width: 90%;
+    height: 6vh;
+    color: #cde2d3;
+    border: 2px solid black;
+    background-color: #4a7c59;
+}
+
+footer {
+    background-color: #74a182;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    height: 10vh;
+    margin-top: auto;
+}
+p.footer {
+    text-align: end;
+}
